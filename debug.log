@@ -1,0 +1,6 @@
+[1026/024148.675:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1026/034747.529:ERROR:file_io.cc(90)] ReadExactly: expected 36, observed 0
+[1026/102056.685:ERROR:file_io.cc(90)] ReadExactly: expected 36, observed 0
+[1026/113252.428:ERROR:file_io.cc(90)] ReadExactly: expected 36, observed 0
+[1026/115427.421:ERROR:file_io.cc(90)] ReadExactly: expected 36, observed 0
+[1105/082415.372:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
