@@ -1,5 +1,5 @@
-import React from 'react'; 
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import React from 'react';
+import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 
 import './App.css';
 import HeaderComponent from './components/header'
@@ -12,16 +12,17 @@ function App() {
   return (
     <ProductState>
       <BrowserRouter>
-      <div className="App">
-        <HeaderComponent></HeaderComponent> 
-        <Switch>
-          <Route exact path='/' component={homeScreen} />
-          <Route exact path='/fav' component={favoriteScreen} />
-        </Switch>
-      </div>
+        <div className="App">
+          <HeaderComponent></HeaderComponent>
+          <Switch>
+            <Route exact path='/' component={homeScreen} />
+            <Route exact path='/fav' component={favoriteScreen} />
+            <Redirect to="/" />
+          </Switch>
+        </div>
       </BrowserRouter>
     </ProductState>
-  ); 
-} 
+  );
+}
 
 export default App;
