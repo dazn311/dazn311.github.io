@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ItemList from './itemList';
 
-function ItemsList({ items }) {
+function ItemsList({ items, loader }) {
 
     const itemlist = <ul style={styles.ul}>
         {items.map((item, index) => (
@@ -13,8 +13,8 @@ function ItemsList({ items }) {
         ))}
     </ul>;
 
+    console.log('ItemsList 77');
 
-    const loader = <div className="loader">Loading...</div>;
     const listItems = items.length ? itemlist : loader;
 
     return (listItems)

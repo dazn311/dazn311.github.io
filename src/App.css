@@ -10,7 +10,8 @@
 }
 
 div#root {
-  display: flex;}
+  /* display: flex; */
+}
  
   h1 {
     text-align: center;
@@ -20,9 +21,9 @@ div#root {
     min-height: 100px;
     margin: 5px;
     padding: 3px;
-    background-color: darkgrey;
-    border: 1px solid darkgrey;
-    border-radius: 5px;
+    /* background-color: darkgrey; */
+    /* border: 1px solid darkgrey;
+    border-radius: 5px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -88,4 +89,9 @@ li {
 .navbar-brand {
   padding: .3125rem;
   box-shadow: 0px 0px 8px 1px #607d8b1c;
+}
+
+.no-fav{
+  text-align: center;
+  padding: 20px;
 }

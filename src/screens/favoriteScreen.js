@@ -28,12 +28,12 @@ export default function FavoriteScreen() {
         <ButtonsGroup eventButton={removeFavoriteAll} captionButton={'Remove Favorite All'} />
     </div>;
 
-    // const isLoading = false;
+    const loader = <div className="no-fav alert-danger">Избранных нет записей</div>;
 
     return (
         <div>
             <h1>Fav Page</h1>
-            <ItemsList items={fav} loading={loading} />
+            <ItemsList items={fav} loader={loader} loading={loading} />
             {buttons}
         </div>
     )

@@ -18,6 +18,7 @@ export default function HomeScreen() {
 
     const updateItems = () => {
         setIsLoading({ isLoading: true });
+
         gotService.getProductAll()
             .then((jsonData) => {
                 const transData = gotService.transformDataR(jsonData);
@@ -67,10 +68,12 @@ export default function HomeScreen() {
         <ButtonsGroup eventButton={togglePlayLoop} captionButton={loopCaptionButton} />
     </div>;
 
+    const loader = <div className="loader">Loading...</div>;
+
     return (
         <div>
             <h1>Home Page</h1>
-            <ItemsList items={items} loading={isLoading} />
+            <ItemsList items={items} loader={loader} loading={isLoading} />
             {buttons}
         </div>
     )
