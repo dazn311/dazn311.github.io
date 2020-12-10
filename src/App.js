@@ -17,7 +17,7 @@ function App() {
           <Switch>
             <Route exact path='/' component={homeScreen} />
             <Route exact path='/fav' component={favoriteScreen} />
-            <Redirect to="/" />
+            <Route component={homeScreen} />
           </Switch>
         </div>
       </BrowserRouter>
