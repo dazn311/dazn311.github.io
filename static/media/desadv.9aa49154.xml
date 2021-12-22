@@ -24,7 +24,7 @@
       <DocOption>
         <Name>TaxAmount</Name>
         <Value>218.03</Value>
-      </DocOption>
+      </DocOption> 
     </DocHeadOptions>
   </Options>
   <DocDetail>
@@ -34,7 +34,7 @@
     <ProductName>ESSENCE ULTIME Бальзам д/поврежд.и</ProductName>
     <UOM>PCE</UOM>
     <ItemsPerUnit>6.000</ItemsPerUnit>
-    <QTY>12.0000</QTY>
+    <QTY>12.000</QTY>
     <Price1>100.94</Price1>
     <Price2>119.11</Price2>
     <Vat>18</Vat>
@@ -52,6 +52,35 @@
         <DocOption>
           <Name>GrossAmount</Name>
           <Value>1429.31</Value>
+        </DocOption>
+      </DocDetailOptions>
+    </Options>
+  </DocDetail>
+  <DocDetail>
+    <EAN>4053158943603</EAN>
+    <SenderPrdCode>4053158943604</SenderPrdCode>
+    <ReceiverPrdCode>4053158943605</ReceiverPrdCode>
+    <ProductName>ESSENCE ULTIME Бальзам д/поврежд.и</ProductName>
+    <UOM>PCE</UOM>
+    <ItemsPerUnit>6.000</ItemsPerUnit>
+    <QTY>10.000</QTY>
+    <Price1>121.94</Price1>
+    <Price2>129.11</Price2>
+    <Vat>18</Vat>
+    <OriginCountry>BY</OriginCountry>
+    <Options>
+      <DocDetailOptions>
+        <DocOption>
+          <Name>NetAmount</Name>
+          <Value>1311.28</Value>
+        </DocOption>
+        <DocOption>
+          <Name>TaxAmount</Name>
+          <Value>228.03</Value>
+        </DocOption>
+        <DocOption>
+          <Name>GrossAmount</Name>
+          <Value>1439.31</Value>
         </DocOption>
       </DocDetailOptions>
     </Options>
